@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n=0,soma=0;
+
+    cout <<"Digite um valor: ";
+    cin >> n;
+
+    while (n >=0)
+    {
+        cout <<"Digite um valor:";
+        soma +=n;
+        cin >> n;
+
+    }
+
+
+    cout <<"Soma dos numeros digitados:" << soma;
+
+}
